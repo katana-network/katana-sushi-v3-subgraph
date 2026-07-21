@@ -1,18 +1,4 @@
-import {
-  type Bundle,
-  type EvmOnEventContext,
-  type Factory,
-  type Pool,
-  type PoolDayData,
-  type PoolHourData,
-  type Tick,
-  type TickDayData,
-  type TickHourData,
-  type Token,
-  type TokenDayData,
-  type TokenHourData,
-  type UniswapDayData,
-} from "envio";
+import { type Bundle, type EvmOnEventContext, type Factory, type Pool, type PoolDayData, type PoolHourData, type Tick, type TickDayData, type TickHourData, type Token, type TokenDayData, type TokenHourData, type UniswapDayData } from "envio";
 import { ONE_BI, ZERO_BD, ZERO_BI } from "./constants.js";
 
 export async function updateUniswapDayData(
